@@ -1,3 +1,160 @@
+@font-face {
+    font-family: 'digitalFont';
+    /* Choose a name for your font */
+    src: url('digital-7/digital-7.ttf') format('truetype'),
+        /* Define the font file's path and format */
+}
+
+.container {
+    margin: 20px;
+    margin-right: 0px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    border: 5px solid black;
+    border-radius: 30px;
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 500px;
+    background-color: rgb(85, 90, 92);
+}
+
+.numberDisplay {
+    flex: 1 0 auto;
+    width: 90%;
+    height: 45px;
+    margin: 10px;
+    margin-bottom: 15px;
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: rgb(180, 234, 255);
+    padding: 5px;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: 'digitalFont', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    ;
+    user-select: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.num {
+    margin: 2px;
+    border: 2px black solid;
+    border-radius: 20px;
+    background-color: rgb(221, 221, 221);
+    padding: 5px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    user-select: none;
+    width: 20%;
+    height: 60px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.num:hover {
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
+
+.num:active {
+    transform: scale(0.9);
+}
+
+#equals {
+    background-color: rgb(255, 138, 60);
+    color: white;
+}
+
+#equals:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.overallContainer {
+    display: flex;
+}
+
+.extCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.clearExt {
+    border-top: 5px black solid;
+    border-right: 5px black solid;
+    border-bottom: 5px black solid;
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    font-weight: bold;
+    font-size: 20px;
+    height: 100px;
+    width: 25px;
+    background-color: chartreuse;
+    user-select: none;
+    font-family: 'digitalFont', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clearExt:hover {
+    background-color: rgb(234, 255, 214);
+}
+
+.clearExt:active {
+    font-size: 15px;
+}
+
+.changeClrExt {
+    border-top: 5px black solid;
+    border-right: 5px black solid;
+    border-bottom: 5px black solid;
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    font-weight: bold;
+    font-size: 20px;
+    height: 100px;
+    width: 25px;
+    background-color: rgb(131, 174, 255);
+    user-select: none;
+    font-family: 'digitalFont', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.changeClrExt:hover {
+    background-color: rgb(188, 211, 255);
+}
+
+.changeClrExt:active {
+    font-size: 15px;
+}
+
+.copyright {
+    margin: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.copyrightIMG {
+    width: 20px;
+    height: 20px;
+    display: inline;
+}
+
 body {
-    background-color: black;
+    display: flex;
+    flex-direction: column;
 }
